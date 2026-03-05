@@ -170,7 +170,7 @@ nav.directory-links {
   padding-right: clamp(16px, 4vw, 200px); /* more generous on the right */
 
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto auto auto auto;
   align-items: center;
   gap: 30px;
 }
