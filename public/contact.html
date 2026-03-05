@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style-index.css" rel="stylesheet" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      emailjs.init("ocgR6kh-NV9Xr4AdE");
+    </script>
+    <script src="script.js" defer></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
+    <title>ToSendLight | Music Therapy & Education</title>
+  </head>
+
+  <body>
+    <div class="directory">
+      <nav class="directory-links">
+        <a href="index.html" class="home-logo" rel="noopener">
+          <img
+            src="/images/lightbulb-no-background.png"
+            alt="lightbulb icon"
+            class="lightbulb-img"
+            width="40px"
+            loading="lazy"
+          />
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <div class="main-container">
+      <form id="contactForm">
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+        <input
+          id="subject"
+          type="text"
+          name="subject"
+          placeholder="Subject"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message"
+          required
+        ></textarea>
+        <!--<div class="g-recaptcha" data-sitekey="your_site_key"></div>-->
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <aside>
+      <p class="personal-info">joycaminero@tosendlight.org</p>
+      <a
+        href="https://www.instagram.com/tosendlight/"
+        class="instagram-link"
+        target="_blank"
+        rel="noopener"
+      >
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/023/986/885/small/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png"
+          alt="instagram icon"
+          class="instagram-img"
+          width="40px"
+          loading="lazy"
+        />
+      </a>
+    </aside>
+
+    <footer>
+      Copyright &copy; 2025 by
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/csanelys/"
+        target="_blank"
+        >Anelys Caminero Santiago</a
+      >
+    </footer>
+  </body>
+</html>
