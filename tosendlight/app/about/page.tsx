@@ -13,9 +13,10 @@ export default function About() {
           className="rounded-full object-cover"
         />
         <div>
-          <h1 className="text-3xl font-semibold mb-2">Your Name</h1>
+          <h1 className="text-3xl font-semibold mb-2">Joy Caminero</h1>
           <p className="text-gray-600">
-            Short one-line tagline about who you are and what you do.
+            I am a (...) excited to (...). Continue reading to learn more about
+            my services and credentials.
           </p>
         </div>
       </section>
@@ -23,28 +24,43 @@ export default function About() {
       {/* JOURNEY */}
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">My Journey</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Born and raised in Puerto Rico, I always had a musical inclination.
+          Once I had to decide what to do professionally, I always knew I wanted
+          to work with music, but never knew WHAT.
+        </p>
+
         <p className="text-gray-700 leading-relaxed">
-          Write your story here — how you got started, what drives you, and what
-          makes your approach different. This can be 2-3 paragraphs; break it
-          into multiple &lt;p&gt; tags for readability.
+          After extensive research and help from academic advisors, I chose
+          Music Therapy and never looked back. Now, I practice music therapy,
+          but also found a passion in teaching!
+        </p>
+      </section>
+
+      {/* WHAT IS MUSIC THERAPY */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-semibold mb-4">What is Music Therapy</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Music Therapy is (...)
         </p>
       </section>
 
       {/* SERVICES */}
-      <section>
+      <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Services</h2>
         <div className="grid sm:grid-cols-2 gap-6">
           {/* Repeat this block for each service */}
           <div className="border rounded-lg p-4">
-            <h3 className="font-medium mb-1">Service Name</h3>
+            <h3 className="font-medium mb-1">Music Lessons</h3>
             <p className="text-gray-600 text-sm">
-              Short description of what this service includes.
+              Learn how to play the piano, the guitar, or enhance your vocal
+              ability individually or in a group. Contact me to get a quote.
             </p>
           </div>
           <div className="border rounded-lg p-4">
-            <h3 className="font-medium mb-1">Another Service</h3>
+            <h3 className="font-medium mb-1">Music Therapy</h3>
             <p className="text-gray-600 text-sm">
-              Short description of what this service includes.
+              Book a music therapy to work on (...).
             </p>
           </div>
         </div>
@@ -54,8 +70,8 @@ export default function About() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Credentials</h2>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
-          <li>Your degree / certification — Institution, Year</li>
-          <li>Relevant license or accreditation</li>
+          <li>B.A. Music Therapy — St. Mary of the Woods College, 2025</li>
+          <li>Certification - Date</li>
           <li>Years of experience in your field</li>
         </ul>
       </section>
