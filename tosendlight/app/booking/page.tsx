@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function About() {
+export default function Booking() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12">
       {/* HERO / INTRO */}
@@ -18,6 +18,16 @@ export default function About() {
             Short one-line tagline about who you are and what you do.
           </p>
         </div>
+      </section>
+
+      {/* CREDENTIALS */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-semibold mb-4">Credentials</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>Your degree / certification — Institution, Year</li>
+          <li>Relevant license or accreditation</li>
+          <li>Years of experience in your field</li>
+        </ul>
       </section>
 
       {/* JOURNEY */}
@@ -48,16 +58,6 @@ export default function About() {
             </p>
           </div>
         </div>
-      </section>
-
-      {/* CREDENTIALS */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Credentials</h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-700">
-          <li>Your degree / certification — Institution, Year</li>
-          <li>Relevant license or accreditation</li>
-          <li>Years of experience in your field</li>
-        </ul>
       </section>
     </main>
   );
